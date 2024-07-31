@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/img/mediaqueries.css">
+
+        <title>Responsive Webpage</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header" id="header">
+            <nav class="nav container">
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">Case</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--HOME-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="assets/img/home.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__subtitle">Beats 3</h1>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Overview</h3>
+                            <p class="home__description">Enjoy award-winning Beats sound with wireless listening freedom and a sleek, 
+                                streamlined design with comfortable padded earphones, delivering first-rate playback.
+                            </p>
+                            <a href="#" class="button button--flex interactable">
+                                <span class="button--flex">
+                                     </i> Add to Bag
+                                </span>
+                                <span class="home__price">INR 2999</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--CASE-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">Case</h2>
+
+                <div class="case__container container grid">
+                    <div>
+                        <img src="assets/img/case.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">With a comfortable and adaptable case so that you can 
+                            store it whenever you want, and keep your durability forever.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--DISCOUNT-->
+            <section class="discount section">
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">Immerse yourself in <br> your music</h2>
+                        <p class="discount__description">Get it now, up to 50% off.</p>
+                        <a href="#" class="button button--flex interactable">
+                              Shop Now
+                        </a>
+                    </div>
+
+                    <img src="assets/img/discount.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!-- PRODUCTS-->
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Choose <br> Your Style
+                </h2>
+
+                <div class="products__container container grid">
+                    <div class="scale">
+                        <article class="products__card interactable" data-type="link">
+                            <div class="products__content">
+                                <img src="assets/img/product1.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Black</h3>
+                                <span class="products__price">INR 2499</span>
+        
+                                 
+                            </div>
+                        </article>
+                    </div>
+                    <div class="scale">
+                        <article class="products__card interactable" data-type="link">
+                            <div class="products__content">
+                                <img src="assets/img/product2.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Red Black</h3>
+                                <span class="products__price">INR 2499</span>
+        
+                                 
+                            </div>
+                        </article>
+                    </div>
+                    <div class="scale">
+                        <article class="products__card interactable" data-type="link">
+                            <div class="products__content">
+                                <img src="assets/img/product3.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Night Black</h3>
+                                <span class="products__price">INR 2499</span>
+        
+                                 
+                            </div>
+                        </article>
+                    </div>
+                    <div class="scale">
+                        <article class="products__card interactable" data-type="link">
+                            <div class="products__content">
+                                <img src="assets/img/product4.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Blue</h3>
+                                <span class="products__price">INR 2499</span>
+        
+                                 
+                            </div>
+                        </article>
+                    </div>
+                    <div class="scale">
+                        <article class="products__card interactable" data-type="link">
+                            <div class="products__content">
+                                <img src="assets/img/product5.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Twilight gray</h3>
+                                <span class="products__price">INR2499</span>
+        
+                                 
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Products</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Headphones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Earphones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Earbuds</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Accesories</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Product help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Register</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Updates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Provides</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form interactable">
+                        <input type="email" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                        </button>
+                    </form>
+    
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="#" target="_blank" class="footer__copy-link">All right reserved</a>
+            </p>
+        </footer>
+
+        <!--SCROLL UP-->
+        <a href="#" class="scrollup interactable" id="scroll-up">
+            <svg fill="#ffffff" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+        </a>
+        
+        <!--SCROLL REVEAL-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--MAIN JS-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
