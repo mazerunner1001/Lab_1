@@ -17,6 +17,10 @@
     transform: scale(1.2);
     transition: transform 500ms ease;
   }
+
+  .scale {
+    transition: transform 500ms ease;
+  }
   
   /* HEADER */
   .header {
@@ -327,8 +331,9 @@
     bottom: -20%;
     display: flex;
     background-color: var(--container-color);
-    border-radius: .25rem;
-    padding: .45rem;
+    border-radius: .45rem;
+    padding: .70rem;
+    padding-top: .50rem;
     opacity: 9;
     z-index: var(--z-tooltip);
     transition: .2s;
