@@ -40,11 +40,6 @@
     align-items: center;
   }
   
-  .nav__logo {
-    display: flex;
-    width: 1.5rem;
-  }
-  
   .nav__list {
     display: flex;
     flex-direction: column;
@@ -114,18 +109,6 @@
     position: relative;
   }
   
-  .home__title {
-    position: absolute;
-    top: -4rem;
-    left: 1rem;
-    line-height: 6rem;
-    font-size: var(--biggest-font-size);
-    background: var(--text-gradient);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-  
   .home__subtitle {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-2-5);
@@ -160,10 +143,6 @@
   
   .button:hover {
     background-color: var(--black-color-alt);
-  }
-  
-  .button__icon {
-    font-size: 1.2rem;
   }
   
   .button--flex {
@@ -354,7 +333,7 @@
     bottom: 5rem;
   }
   
-  /*=============== SCROLL BAR ===============*/
+  /* SCROLL BAR */
   ::-webkit-scrollbar {
     width: .60rem;
     border-radius: .5rem;
